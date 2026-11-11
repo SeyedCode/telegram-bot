@@ -16,7 +16,7 @@ run_worker_first = ["/api/*", "/telegram/*", "/pay/*", "/internal/*", "/service-
 
 [vars]
 APP_VERSION = "3.6.0"
-WEBHOOK_SECRET = "hwyrbkyqczfwmizgmiledbvxtylghyzs"
+WEBHOOK_SECRET = "hwyrbkyqczfwmizgmiledbvxtylghyzsm"
 
 [[durable_objects.bindings]]
 name = "BOT_STATE"
